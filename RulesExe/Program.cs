@@ -12,6 +12,6 @@ public class Program
         var lambdaList = new List<string>();
         var lambda = "t.TransactionAmount >= u.TransactionThereshold";
         lambdaList.Add(lambda);
-        _ = RulesEngine.ProcessLambdas(lambdaList);
+        _ = GateEngine.ProcessLambdas(lambdaList);
     }
 }

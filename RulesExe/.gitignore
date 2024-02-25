@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+**_Log.txt
+*Migrations/
+*bin/
+*obj/
+*.vs/
+*.vscode/
+**/ExcelFiles/**.xlsx
+*node_modules/
+*PublishProfiles
+*.angular/
+**package-lock.json
+/Themis/Maestro.Web/package-lock.json
