@@ -8,9 +8,7 @@
 
     {
 
-        void Invoke(Action action);
-
-        void Decide(IAggregator aggregate, Action action);
+        void Decide( Action action);
 
     }
 

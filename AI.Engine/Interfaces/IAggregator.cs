@@ -9,9 +9,6 @@
         double _riskAggregation { get; set; }
 
         IDictionary<int, bool> conditionlist { get; set; }
-
-
-
         bool IsAllTrue();
 
     }
